@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: red;
+}
+
+.wrapper {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 80%;
+    height: 50%;
+    background: white;
+}
+
+.square {
+    height: 50%;
+    width: 28%;
+    border-radius: 100%;
+    background: black;
+}
