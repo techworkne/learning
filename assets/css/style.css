@@ -1,23 +1,42 @@
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    background: red;
-}
+@import "./default.css";
 
 .wrapper {
-    align-items: center;
-    justify-content: space-around;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    background: red;
+    margin: auto auto;
     width: 80%;
-    height: 50%;
-    background: white;
 }
 
-.square {
-    height: 50%;
-    width: 28%;
-    border-radius: 100%;
-    background: black;
+header {
+    background: #332EDE;
+}
+
+section {
+    height: 80vh;
+    background: #EED6B9;
+}
+
+footer {
+    height: 250px;
+    background: #62C7B5;
+}
+
+a {
+    color: white;
+}
+
+.ellipse {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
 }
